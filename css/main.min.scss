@@ -70,6 +70,46 @@ body {
         }
     }
 
+    @media screen and (max-width: 1120px) {
+        width: 80%;
+    }
+
+    @media screen and (max-width: 992px) {
+        width: 90%;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        .hero-card {
+            padding: 40px;
+            height: 450px;
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        width: 90%;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        .hero-card {
+            padding: 40px;
+            height: 450px;
+            .hero-card-button {
+                padding: 5px 10px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 670px) {
+        width: 90%;
+        margin: 50px auto;
+        grid-template-columns: 1fr;
+        .hero-card {
+            padding: 30px;
+            height: 400px;
+            .hero-card-button {
+                padding: 15px 30px;
+            }
+        }
+    }
+
     @media screen and (max-width: 375px) {
         width: 90%;
         margin: 50px auto;
