@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lexend Deca", sans-serif;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.hero-main {
+    width: 70%;
+    margin: 100px auto;
+    border: 3px solid transparent;
+    overflow: hidden;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    .card-1 {
+        background-color: hsl(31, 77%, 52%);
+        .hero-card-button {
+            color: hsl(31, 77%, 52%);
+        }
+    }
+    .card-2 {
+        background-color: hsl(184, 100%, 22%);
+        .hero-card-button {
+            color: hsl(184, 100%, 22%);
+        }
+    }
+    .card-3 {
+        background-color: hsl(179, 100%, 13%);
+        .hero-card-button {
+            color: hsl(179, 100%, 13%);
+        }
+    }
+
+    .hero-card {
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 50px;
+        .hero-card-header {
+            font-family: "Big Shoulders Display", cursive;
+            text-transform: uppercase;
+            color: hsl(0, 0%, 95%);
+            font-size: 35px;
+        }
+        .hero-card-paragraph {
+            color: hsla(0, 0%, 100%, 0.75);
+            font-size: 15px;
+        }
+        .hero-card-button {
+            padding: 15px 30px;
+            background-color: hsl(0, 0%, 95%);
+            border: 2px solid hsl(0, 0%, 95%);
+            border-radius: 30px;
+            text-decoration: none;
+            &:hover {
+                color: hsl(0, 0%, 95%);
+                background-color: transparent;
+            }
+            &:active {
+                color: hsl(0, 0%, 95%);
+                background-color: transparent;
+            }
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        width: 90%;
+        margin: 50px auto;
+        grid-template-columns: 1fr;
+        .hero-card {
+            padding: 30px;
+            height: 400px;
+        }
+    }
+}
