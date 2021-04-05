@@ -11,7 +11,8 @@ body {
 
 .hero-main {
   width: 70%;
-  margin: 100px auto;
+  height: 100vh;
+  margin: 100px auto 0;
   border: 3px solid transparent;
   overflow: hidden;
   border-radius: 10px;
