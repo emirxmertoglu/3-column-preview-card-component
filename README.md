@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/emirxmertoglu/3-column-preview-card-component)
-- Live Site URL: [Add live site URL here](https://3-column-preview-card-component-seven.vercel.app/)
+- Solution URL: [GitHub](https://github.com/emirxmertoglu/3-column-preview-card-component)
+- Live Site URL: [Vercel](https://3-column-preview-card-component-seven.vercel.app/)
 
 ## My process
 
