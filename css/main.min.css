@@ -13,6 +13,7 @@ body {
   width: 70%;
   margin: 100px auto;
   border: 3px solid transparent;
+  overflow: hidden;
   border-radius: 10px;
   display: -ms-grid;
   display: grid;
