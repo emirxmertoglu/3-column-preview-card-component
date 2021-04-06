@@ -14,7 +14,6 @@ body {
   height: 100vh;
   margin: 100px auto 0;
   border: 3px solid transparent;
-  overflow: hidden;
   border-radius: 10px;
   display: -ms-grid;
   display: grid;
@@ -156,5 +155,14 @@ body {
     padding: 30px;
     height: 400px;
   }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
 }
 /*# sourceMappingURL=main.min.css.map */

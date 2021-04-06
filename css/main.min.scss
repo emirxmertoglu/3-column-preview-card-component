@@ -14,7 +14,7 @@ body {
     height: 100vh;
     margin: 100px auto 0;
     border: 3px solid transparent;
-    overflow: hidden;
+    // overflow: hidden;
     border-radius: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -119,5 +119,13 @@ body {
             padding: 30px;
             height: 400px;
         }
+    }
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    a {
+        color: hsl(228, 45%, 44%);
     }
 }
